@@ -12,7 +12,7 @@ const mix = require('laravel-mix');
  */
 
 mix
-  .js('src/js/main.js', 'dist/js/script.min.js')
+  .js('src/js/help.js', 'dist/js/script.min.js')
   .sass('src/sass/main.scss', 'dist/css/style.min.css')
   .options({
     processCssUrls: false, // Process/optimize relative stylesheet url()'s. Set to false, if you don't want them touched.
